@@ -4,14 +4,14 @@ import { FaQuoteLeft } from "react-icons/fa"
 
 const App = () => {
     return (
-        <div className="App font-body bg-neutral-200 md:px-36 md:py-8 px-8 py-16">
-            <div className="md:grid grid-cols-4 grid-rows-2 gap-5">
+        <div className="App font-body bg-neutral-200 md:px-36 md:py-12 px-8 py-16">
+            <div className="md:grid grid-cols-4 grid-rows-2  gap-5">
                 {/* First Testimonial */}
-                <div className="bg-primary-100 p-7 md:p-5 relative col-span-2 rounded-lg mb-5 md:mb-0">
-                    <div className="absolute top-0 right-10 z-[-10]" >
+                <div className="bg-primary-100 p-7 md:p-6 relative col-span-2 rounded-lg">
+                    {/* <div className="absolute top-0 right-10 z-[-10]" >
                         <img src="/images/bg-pattern-quotation.svg"></img>
-                    </div> 
-                    <div className="z-10">
+                    </div>  */}
+                    <div>
                         <div className={`flex items-center mb-3 ${styles.allText}`}>
                             <img src="./images/image-daniel.jpg" className="passport w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-neutral-100 mr-3" ></img>
                             <div className="personal-info">
@@ -19,7 +19,7 @@ const App = () => {
                                 <p className="font-medium text-xs text-primary-lighter">Verified Graduate</p>
                             </div>
                         </div>
-                        <div className="testimony-headline text-lg leading-tight font-semibold text-primary-white mb-4">
+                        <div className="testimony-headline text-lg leading-tight font-semibold text-primary-white mb-3">
                             <h2>
                                 I received a job offer mid-course, and the subjects I learned were current, if not more so, 
                                 in the company I joined. I honestly feel I got every penny’s worth.                         
@@ -39,7 +39,7 @@ const App = () => {
                 </div>
 
                 {/* Second Testimonial */}
-                <div className="bg-primary-200 p-7 md:p-5 rounded-lg mb-5 md:mb-0">
+                <div className="bg-primary-200 p-7 md:p-6 rounded-lg">
                     <div className="flex items-center mb-3">
                         <img src="./images/image-jonathan.jpg" className="passport w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-neutral-100 mr-3" ></img>
                         <div className="personal-info">
@@ -47,7 +47,7 @@ const App = () => {
                             <p className="font-medium text-xs text-primary-lighter">Verified Graduate</p>
                         </div>
                     </div>
-                    <div className="testimony-headline text-lg leading-tight font-semibold mb-4 text-primary-white">
+                    <div className="testimony-headline text-lg leading-tight font-semibold mb-3 text-primary-white">
                         <h2>
                             The team was very supportive and kept me motivated                         
                         </h2>
@@ -61,15 +61,15 @@ const App = () => {
                 </div>
                 
                 {/* Fifth Testimonial */}
-                <div className="bg-primary-white p-7 md:p-5 row-span-2 rounded-lg mb-5 drop-shadow-md md:mb-0">
-                    <div className="flex items-center"> 
+                <div className="bg-primary-white p-7 md:p-6 row-span-2 rounded-lg drop-shadow-md">
+                    <div className="flex items-center mb-3"> 
                         <img src="./images/image-kira.jpg" className="passport w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-primary-white mr-3" ></img>
                         <div className="personal-info">
                             <h1 className="font-semibold text-sm mb-.5 text-secondary-200">Kira Whittle</h1>
                             <p className="font-medium text-xs text-secondary-lighter">Verified Graduate</p>
                         </div>
                     </div>
-                    <div className="testimony-headline text-lg leading-tight font-semibold mb-4 text-secondary-200">
+                    <div className="testimony-headline text-lg leading-tight font-semibold mb-3 text-secondary-200">
                         <h2>
                             Such a life-changing experience. Highly recommended!                         
                         </h2>
@@ -89,7 +89,7 @@ const App = () => {
                 </div>
 
                 {/* Third Testimonial */}
-                <div className="bg-primary-white p-7 md:p-5 rounded-lg mb-5 drop-shadow-md md:mb-0">
+                <div className="bg-primary-white p-7 md:p-6 rounded-lg drop-shadow-md">
                     <div className="flex items-center mb-3"> 
                         <img src="./images/image-jeanette.jpg" className="passport w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-primary-white mr-3" ></img>
                         <div className="personal-info">
@@ -97,7 +97,7 @@ const App = () => {
                             <p className="font-medium text-xs text-secondary-lighter">Verified Graduate</p>
                         </div>
                     </div>
-                    <div className="testimony-headline text-lg leading-tight font-semibold mb-4 text-secondary-200">
+                    <div className="testimony-headline text-lg leading-tight font-semibold mb-3 text-secondary-200">
                         <h2>
                             An overall wonderful and rewarding experience
                         </h2>
@@ -111,7 +111,7 @@ const App = () => {
                 </div>
 
                 {/* Fourth Testimonial */}
-                <div className="bg-primary-300 p-7 md:p-5 col-span-2 rounded-lg mb-5 md:mb-0">
+                <div className="bg-primary-300 p-7 md:p-6 col-span-2 rounded-lg">
                     <div className="flex items-center mb-3">
                         <img src="./images/image-patrick.jpg" className="passport w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-primary-100 mr-3" ></img>
                         <div className="personal-info">
@@ -119,7 +119,7 @@ const App = () => {
                             <p className="font-medium text-xs text-primary-lighter">Verified Graduate</p>
                         </div>
                     </div>
-                    <div className="testimony-headline text-lg leading-tight font-semibold mb-4 text-primary-white">
+                    <div className="testimony-headline text-lg leading-tight font-semibold mb-3 text-primary-white">
                         <h2>
                             Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
                             learning from their experiences was easy.                     
